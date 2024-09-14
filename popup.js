@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const to = toCurrency.value;
 
         if (isNaN(amount)) {
-            resultDiv.textContent = 'Please enter a valid amount.';
+            resultDiv.textContent = 'Please enter some amount.';
             return;
         }
 
